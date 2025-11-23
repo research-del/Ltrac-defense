@@ -1,0 +1,29 @@
+# Core libraries
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+
+# Deep learning
+torch
+torchvision
+torchaudio
+tensorflow
+keras
+
+# Clustering & dimensionality reduction
+hdbscan
+umap-learn
+
+# Visualization & plotting
+matplotlib
+seaborn
+
+# File & config handling
+pyyaml
+
+# Optional helpers (for installation/testing)
+ipython
+jupyter
+notebook
