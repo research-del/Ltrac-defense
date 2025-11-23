@@ -20,8 +20,7 @@ wf-defense/
 │   ├── analysis/
 │   │   └── overhead_analysis.py
 │   └── utils/      (optional utilities)
-│       ├── data_loader.py
-│       ├── preprocess.py
+│   
 │       └── visualization.py
 ├── README.md
 ├── requirements.txt
@@ -53,7 +52,7 @@ Includes closed-world accuracy and open-world precision–recall.
 
 	Zero time overhead
 ________________________________________
-🔧 Setup & Installation
+ Setup & Installation
 Install dependencies:
 pip install -r requirements.txt
 (Optional) Install GPU-enabled PyTorch from https://pytorch.org.
@@ -64,13 +63,14 @@ python src/training/train_supcon_hybrid.py
 Train Attack Models (DF, Var-CNN, etc.)
 python src/training/train_attackers.py
 ________________________________________
-🧪 Run Evaluation
+ Run Evaluation
 Closed-world Evaluation
 python src/evaluation/supcon_ae_cw_eval.py
 Open-world Precision–Recall
 python src/evaluation/openworld_precision_recall.py
 ________________________________________
-📊 Overhead Analysis
+
+Overhead Analysis
 python src/analysis/overhead_analysis.py
 Generates latency & bandwidth overhead analysis.
 ________________________________________
@@ -98,3 +98,4 @@ ________________________________________
 - **OS:** Windows 10/11, Linux (Ubuntu 20.04+), macOS
 - **Python:** 3.8+
  
+
